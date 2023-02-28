@@ -1,0 +1,117 @@
+
+  /*questions: why doesnt the background blend in the main bpdy work??*/
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/* everything selector for generals*/
+*{
+    box-sizing:border-box;
+    font-family:Rubik;
+}
+ 
+ /*  getting rid of the white space and making the background fill the entire image  */
+
+ html, body {
+    margin: 0; 
+    padding: 0;
+ }
+ /*there was still a tiny bit left at the ul element so set the margin to 0 here too */
+
+ .nav ul{
+    margin:0; 
+ }
+ .nav li {
+    display: inline;
+ }
+
+ .nav a{
+    /* space out the header elements from each other */
+    display: inline-block;
+    padding: .5em;
+    color: rgba(215, 42, 128);
+ }
+
+ .main-nav{
+    text-align:center;
+    font-size: 1.1 em; 
+    font-weight:lighter;
+    border-bottom: 1px solid rgba (215, 215, 128);
+ }
+
+ .main-nav li {
+    padding: 6% 5%
+ }
+
+ .nav a:hover{
+    background-color: rgba(231, 137, 206, 0.281);
+ }
+.main-header {
+    background-image: url("../images/soft_electric.jpg");
+    background-size: cover;
+    padding-bottom: 3px;
+}
+.piece-name{
+    text-align: center;
+    margin: 0;
+    font-size: 6em;
+}
+.piece-name-large {
+    font-size: 7em;
+}
+.sub-name {
+    text-align:center;
+    font-size: 5em;
+}
+
+
+/*main part*/
+.main-body{
+    background-color: rgba(115,12,125,0.3);
+    background-image: url("../images/soft_electric.jpg");
+    background-blend-mode: multiply;
+    background-size: cover; 
+    padding-top: 20px;
+    border-top: double;
+}
+.body-header{
+    margin: 2em;
+}
+
+.video{
+    max-width: 60 rem; 
+    width: 100%; 
+   /* max-height: 30.875 rem;*/
+    height: 200%;
+
+   /* margin: 1.25rem auto;*/ 
+   
+}
+
+.main-footer{
+    background-color: rgba(225, 92, 158, 0.316);
+    background-image: url("../images/soft_electric.jpg");
+    background-blend-mode: multiply;
+    color: white;
+    padding: .25;
+    background-size:cover;
+    padding-bottom:10px;
+
+}
+main-footer-container {
+    display: flex;
+    align-items:center;
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align:end;
+}
+.footer-nav li{
+    padding:0 .5em;
+}
+.footer-nav img{
+    width:30px;
+    height:30px;
+}
