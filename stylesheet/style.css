@@ -67,9 +67,9 @@
 
 /*main part*/
 .main-body{
-    background-color: rgba(115,12,125,0.3);
-    background-image: url("../images/soft_electric.jpg");
-    background-blend-mode: multiply;
+    background-color: rgba(182, 153, 195, 0.326);
+    background-image: url("../images/background.jpeg");
+    background-blend-mode: difference;
     background-size: cover; 
     padding-top: 20px;
 }
@@ -80,14 +80,11 @@
 .video{
     max-width: 60 rem; 
     width: 100%; 
-   /* max-height: 30.875 rem;*/
     height: 200%;
-
-   /* margin: 1.25rem auto;*/ 
-   
 }
 .tag{
-    margin: 50px
+    margin: 50px;
+    padding-bottom:50px;
 }
 .main-footer{
     background-color: rgba(225, 92, 158, 0.316);
@@ -96,7 +93,8 @@
     color: white;
     padding: .25;
     background-size:cover;
-    padding-bottom:10px;
+    padding-bottom:20px;
+  
 
 }
 main-footer-container {
@@ -104,8 +102,8 @@ main-footer-container {
     align-items:center;
 }
 .main-footer-container ul{
-    flex-grow:1;
-    text-align:end;
+    flex-grow:0.5;
+    text-align:center;
 }
 .footer-nav li{
     padding:0 .5em;
