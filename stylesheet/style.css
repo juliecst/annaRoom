@@ -3,13 +3,15 @@
   
   
   
-  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
+  @font-face {
+    font-family: OurFavFont;
+    src: url(SpecialElite.ttf);
+}
 
 /* everything selector for generals*/
 *{
     box-sizing:border-box;
-    font-family:Rubik;
+    font-family: 'Courier New', Courier, monospace;
 }
  
  /*  getting rid of the white space and making the background fill the entire image  */
