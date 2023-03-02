@@ -89,7 +89,9 @@
    /* margin: 1.25rem auto;*/ 
    
 }
-
+.tag{
+    margin: 50px
+}
 .main-footer{
     background-color: rgba(225, 92, 158, 0.316);
     background-image: url("../images/soft_electric.jpg");
