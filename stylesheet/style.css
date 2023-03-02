@@ -2,11 +2,7 @@
   /*questions: why doesnt the background blend in the main bpdy work??*/
   
   
-  
-  @font-face {
-    font-family: OurFavFont;
-    src: url(SpecialElite.ttf);
-}
+
 
 /* everything selector for generals*/
 *{
@@ -40,7 +36,7 @@
     text-align:center;
     font-size: 1.1 em; 
     font-weight:lighter;
-    border-bottom: 1px solid rgba (215, 215, 128);
+    border-bottom: 1px solid rgba(215, 215, 128);
  }
 
  .main-nav li {
@@ -76,7 +72,6 @@
     background-blend-mode: multiply;
     background-size: cover; 
     padding-top: 20px;
-    border-top: double;
 }
 .body-header{
     margin: 2em;
