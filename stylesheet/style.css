@@ -30,6 +30,7 @@
     display: inline-block;
     padding: .5em;
     color: rgba(215, 42, 128);
+    font-weight: bold;
  }
 
  .main-nav{
@@ -47,7 +48,7 @@
     background-color: rgba(231, 137, 206, 0.281);
  }
 .main-header {
-    background-image: url("../images/soft_electric.jpg");
+    background-image: url("../images/backgroundHead.jpeg");
     background-size: cover;
     padding-bottom: 3px;
 }
@@ -55,23 +56,27 @@
     text-align: center;
     margin: 0;
     font-size: 6em;
+    color:#f0ff00;
 }
 .piece-name-large {
     font-size: 7em;
+    color:#f0ff00;
 }
 .sub-name {
     text-align:center;
     font-size: 5em;
+    color:#f0ff00;
 }
 
 
 /*main part*/
 .main-body{
     background-color: rgba(182, 153, 195, 0.326);
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/backgroundYim.jpeg");
     background-blend-mode: difference;
     background-size: cover; 
     padding-top: 20px;
+    padding-bottom: 20px
 }
 .body-header{
     margin: 2em;
@@ -83,8 +88,13 @@
     height: 200%;
 }
 .tag{
-    margin: 50px;
-    padding-bottom:50px;
+    margin-top:50px;
+    margin-left:150px;
+    margin-right:150px;
+   
+    text-align: center;
+    font-weight: 700;
+    background: rgba(255,255,255,0.5)
 }
 .main-footer{
     background-color: rgba(225, 92, 158, 0.316);
